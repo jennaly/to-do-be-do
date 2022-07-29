@@ -5,8 +5,13 @@
 }
 
 body {
-    background: #0010bf;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Indie Flower', cursive;
+    
+
 }
 
 .todo-container {
@@ -15,7 +20,7 @@ body {
     top: 50%;
     left: 50%;
     padding: 20px;
-    width: 600px;
+    width: 60%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -30,26 +35,36 @@ body {
 
 h2 {
     padding: 10px;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 input {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    height: 20px;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+    border: 0;
+}
+
+input:focus {
+    outline-style: none;
 }
 
 textarea {
     display:block;
-    padding: 2px;
+    padding: 10px;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     border-radius: 5px;
-    font-family: 'Edu TAS Beginner', sans-serif;
-    
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+    border: 0;
+}
+
+textarea:focus {
+    outline-style: none;
 }
 
 .todo-header button {
@@ -57,12 +72,11 @@ textarea {
     color: white;
     border: none;
     cursor: pointer;
-    margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 5px;
-    background-color: rgb(51, 212, 51);
-    font-family: 'Edu TAS Beginner', sans-serif;
+    background-color:#AB80AD;
+    font-family: 'Indie Flower', cursive;
 }
 
 ul {
@@ -81,7 +95,6 @@ ul {
 }
 
 .todo-list-item-content {
-    font-size: .8rem;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -106,10 +119,10 @@ ul {
     border-radius: 5px;
     cursor: pointer;
     padding: 5px;
-    margin-bottom: 2px;
-    background-color: rgb(51, 212, 100);
+    margin-bottom: 5px;
+    background-color: #D5B8D8;
     max-height: 30px;
-    font-family: 'Edu TAS Beginner', sans-serif;
+    font-family: 'Indie Flower', cursive;
     display: block;
     font-size: 16px;
 }
@@ -119,10 +132,9 @@ ul {
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    margin-bottom: 2px;
     cursor: pointer;
     padding: 5px;
-    background-color: rgb(223, 43, 43);
+    background-color: #B6C7DD;
     max-height: 30px;
     display: block;
     text-align: center;
@@ -134,7 +146,7 @@ ul {
 }
 
 .todo-list-item .edit {
-    color: rgb(143, 233, 58);
+    color:#F9F6E4;
     margin-right: 10px;
     cursor: pointer;
     text-decoration: none;
@@ -142,7 +154,7 @@ ul {
 }
 
 .todo-list-item .remove {
-    color: rgb(243, 96, 96);
+    color: #B6C7DD;
     margin-right: 5px;
     cursor: pointer;
     text-decoration: none;
