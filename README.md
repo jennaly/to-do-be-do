@@ -13,7 +13,7 @@ The server is created with Node and Express and connects to a Mongo database. A 
 
 ## Lessons Learned:
 
-I learned to create an application with CRUD functionality, replacing PUT and DELETE methods with two Mongoose built-in functions, designing a schema to streamline data structure, and using EJS to render DOM elements. 
+I learned to create an application with CRUD functionality, replace PUT and DELETE methods with two Mongoose built-in functions, design a schema to streamline data structure, and use EJS to render DOM elements. 
 
 
 
